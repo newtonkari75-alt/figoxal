@@ -269,17 +269,21 @@
         </div>
 
         <!-- Navbar -->
-        <header class="bg-[#560337] px-4 py-2 sticky top-0 z-50 shadow-sm w-full">
-            <div class="container mx-auto flex justify-center md:justify-between items-center">
+        <!-- Aumentei o padding vertical (py-3) para dar mais ar ao cabeçalho -->
+        <header class="bg-[#560337] px-4 py-3 sticky top-0 z-50 shadow-sm w-full">
+            <!-- Removi 'md:justify-between' para garantir que fique sempre centralizado (justify-center) -->
+            <div class="container mx-auto flex justify-center items-center">
                 <div class="flex items-center">
                     <!-- Placeholder logo with new name -->
-                    <img src="images/figoxal_logo.png" alt="Figoxal Official Logo" class="h-10 md:h-14 w-auto">
+                    <!-- ADICIONADO 'brightness-0 invert' PARA DEIXAR A LOGO BRANCA -->
+                    <img src="images/figoxal_logo.png" alt="Figoxal Official Logo" class="h-10 md:h-14 w-auto brightness-0 invert">
                 </div>
             </div>
         </header>
 
         <!-- Hero Image Section -->
-        <section class="relative w-full bg-gray-50 pb-4">
+        <!-- Adicionei 'pt-8' para aumentar o espaço entre o cabeçalho e a foto -->
+        <section class="relative w-full bg-gray-50 pt-8 pb-4">
             <div class="container mx-auto max-w-5xl px-0 md:px-4 flex justify-center relative">
                 
                 <img src="images/figoxal1.png" class="w-[50%] md:w-[35%] h-auto block md:rounded-b-lg shadow-sm" alt="Figoxal Product">
@@ -445,7 +449,8 @@
             <div class="container mx-auto px-4 max-w-5xl">
                 <div class="flex flex-col justify-center items-center gap-10 mb-10">
                     <div class="flex flex-col items-center gap-4">
-                        <img src="images/figoxal_logo.png" alt="Figoxal Logo" class="h-8 w-auto opacity-80 grayscale">
+                        <!-- REMOVIDO 'opacity-80 grayscale' PARA DEIXAR A COR NATURAL -->
+                        <img src="images/figoxal_logo.png" alt="Figoxal Logo" class="h-8 w-auto">
                         <p class="text-center text-gray-500 text-sm md:text-base leading-relaxed max-w-2xl mx-auto" data-i18n="footer_text">
                             Figoxal biedt hoogwaardige, wetenschappelijk onderbouwde voedingsondersteuning. Wij geloven in transparantie, kwaliteitsingrediënten en echte resultaten.
                         </p>
